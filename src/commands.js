@@ -636,6 +636,6 @@ const mac = typeof navigator != "undefined" ? /Mac|iP(hone|[oa]d)/.test(navigato
 
 // :: Object
 // Depending on the detected platform, this will hold
-// [`pcBasekeymap`](#commands.pcBaseKeymap) or
+// [`pcBasekeymap`](#commands.pcBaseKeymap) o
 // [`macBaseKeymap`](#commands.macBaseKeymap).
-export let baseKeymap = mac ? macBaseKeymap : pcBaseKeymap
+export let basekeymap = mac ? macBaseKeymap : pcBaseKeymap
